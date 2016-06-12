@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">InfoSoc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ruta">Ruta</string>
+    <string name="title_activity_estadistica">Estadistica</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_nivel">Nivel</string>
+    <string name="nombre_app">App</string>
+    <string name="empezar_viaje">Empezar viaje</string>
+    <string name="personas_involucradas">personas se unieron recientemente</string>
+    <string name="involucradas">Personas involucradas</string>
+    <string name="total_personas">0</string>
+    <string name="autos_guardados">Autos guardados</string>
+    <string name="cnt_autos_guardados">0</string>
+    <string name="co2_evitado">CO2 evitado</string>
+    <string name="cnt_co2_evitado">0</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="nivel">Nivel</string>
+    <string name="slash">/</string>
+    <string name="cantidad_viajes">Viajes en esta semana</string>
+    <string name="cnt_viajes">0</string>
+    <string name="tiempo_viaje">Tiempo del útimo viaje</string>
+    <string name="tmp_viaje">1h 54min</string>
+    <string name="pts_sgt_nivel">Puntos para nivel </string>
+    <string name="pts_sgt_nvl">0</string>
+    <string name="premio_sgt_nvl">Premio por alcanzar siguiente nivel</string>
+    <string name="descripcion">Proyecto para la reducción del congestionamiento vial en la G.A.M. por medio de una aplicación para teléfonos inteligentes</string>
+    <string name="desarrolladores">Desarrolladores</string>
+    <string name="nombres_desarrolladores">Ricardo Aguilar\nGabriel Bermúdez\nMarcos García\nÉrick Ostorga\nJean Carlo Zúñiga</string>
+    <string name="curso">Curso Informática y Sociedad</string>
+    <string name="universidad">Universidad de Costa Rica</string>
+    <string name="anno">2016</string>
+
+</resources>
