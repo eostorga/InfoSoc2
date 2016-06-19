@@ -12,100 +12,104 @@
     android:background="@color/white"
     tools:context="com.projects.ricardo.infosoc.About"
     tools:showIn="@layout/app_bar_about">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/logo"
+                android:layout_weight="0" />
 
-        <ImageView
-            android:layout_width="75sp"
-            android:layout_height="75sp"
-            android:id="@+id/imageView3"
-            android:layout_gravity="center_horizontal"
-            android:background="@mipmap/logo"
-            android:layout_weight="0" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion"
+                android:id="@+id/textView10"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="18dp" />
 
-        <TextView
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/descripcion"
-            android:id="@+id/textView10"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="18dp" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desarrolladores"
+                android:id="@+id/textView11"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/desarrolladores"
-            android:id="@+id/textView11"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombres_desarrolladores"
+                android:id="@+id/textView12"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="18dp" />
 
-        <TextView
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nombres_desarrolladores"
-            android:id="@+id/textView12"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="18dp" />
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curso"
+                android:id="@+id/textView13"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/curso"
-            android:id="@+id/textView13"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/universidad"
+                android:id="@+id/textView14"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/universidad"
-            android:id="@+id/textView14"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/anno"
-            android:id="@+id/textView15"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-    </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anno"
+                android:id="@+id/textView15"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -9,6 +9,7 @@
     <string name="title_activity_estadistica">Estadistica</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_nivel">Nivel</string>
+    <string name="title_activity_ruta_datos">Ruta</string>
     <string name="nombre_app">App</string>
     <string name="empezar_viaje">Empezar viaje</string>
     <string name="personas_involucradas">personas se unieron recientemente</string>
@@ -34,5 +35,12 @@
     <string name="curso">Curso Informática y Sociedad</string>
     <string name="universidad">Universidad de Costa Rica</string>
     <string name="anno">2016</string>
+    <string name="precione_iniciar">Precione Iniciar para obtener la ruta</string>
+    <string name="iniciar_ruta">Iniciar ruta</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="calculando_ruta">Calculando ruta</string>
+    <string name="terminar">Precione Terminar cuando finalice el recorrido</string>
+    <string name="terminar_btn">Terminar</string>
+
 
 </resources>

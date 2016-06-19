@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
+
     }
 
     @Override
@@ -82,13 +83,16 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            Intent mIntent;
-            mIntent = new Intent(MainActivity.this, MainActivity.class);
-            startActivity(mIntent);
+            //Ojo, si estoy en la vista principal y puedo crear una actividad con una nueva vista
+            //principal... Mejor lo quito.
+
+            //Intent mIntent;
+            //mIntent = new Intent(MainActivity.this, MainActivity.class);
+            //startActivity(mIntent);
         } else if (id == R.id.nav_gallery) {
             Intent mIntent;
-            mIntent = new Intent(MainActivity.this, Ruta.class);
-            startActivity(mIntent);
+            mIntent = new Intent(getBaseContext(), MapsActivityService.class);
+            startService(mIntent);
         } else if (id == R.id.nav_slideshow) {
             Intent mIntent;
             mIntent = new Intent(MainActivity.this, Nivel.class);
